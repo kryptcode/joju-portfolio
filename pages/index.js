@@ -20,12 +20,12 @@ const Home = () => {
             <img src="https://i.ibb.co/QJR0kp8/mCD.png" alt="" className='w-[100%]' />
           </div>
 
-          <div className='flex-1 relative space-y-3'>
+          <div className='flex-1'>
             <img src="./images/SKK.png" alt="" className='w-[100%]' />
-            <div className='flex space-x-2'>
+            {/* <div className='flex space-x-2'>
             <img src="./images/SSV1BLK.png" alt="" className='w-[50%]' />
             <img src="./images/SSV1WT.png" alt="" className='w-[50%]' />
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -34,6 +34,19 @@ const Home = () => {
             <img src="./images/AQUAMOTION.png" alt="" />
           </div>
         </div>
+      </div>
+
+      {/* About Me */}
+      <div className='w-[96%] sm:w-[90%] mx-auto mb-6 py-12'>
+            <h5 className='text-black/80 text-xl font-semibold mb-3'>
+              Hello I'm
+            </h5>
+            <h1 className='text-5xl font-semibold tracking-wide mb-3'>
+              Adeyombo Adekemi
+            </h1>
+            <p className='text-black/80 text-xl font-semibold'>
+            I'm a self taught graphic designer based in Abuja , Nigeria.
+            </p>
       </div>
 
       {/* Contact */}
@@ -56,57 +69,61 @@ const Home = () => {
         <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-5 items-center mb-4'>
           <div className='flex-1'>
             <img src="./images/AQUAMOTION.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>
+            <p className='text-gray-600 text-sm'>
               Aquamotion
             </p>
           </div>
           <div className='flex-1'>
             <img src="./images/final rollout.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>
+            <p className='text-gray-600 text-sm'>
               Twenties Merch
             </p>
           </div>
           <div className='flex-1'>
             <img src="./images/THE SACRED FEMININE BG.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>The Sacred Feminine</p>
+            <p className='text-gray-600 text-sm'>The Sacred Feminine</p>
           </div>
           <div className='flex-1'>
             <img src="./images/SKK.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>Eccentrist</p>
+            <p className='text-gray-600 text-sm'>Eccedentesiast</p>
           </div>
         </div>
 
         <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-5 items-center mb-4'>
           <div className='flex-1'>
             <img src="https://i.ibb.co/QJR0kp8/mCD.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>MicroDosing</p>
+            <p className='text-gray-600 text-sm'>MicroDosing</p>
           </div>
           <div className='flex-1'>
             <img src="./images/LISSOME STATIONERY.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>Lissome</p>
+            <p className='text-gray-600 text-sm'>Lissome</p>
           </div>
           <div className='flex-1'>
             <img src="./images/LISSOME PAPER BAGS.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>Lissome Paper Bags</p>
+            <p className='text-gray-600 text-sm'>Lissome Paper Bags</p>
           </div>
           <div className='flex-1'>
             <img src="./images/TIRED YUTE WHITE BG.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-300 text-sm'>Tired Yute</p>
+            <p className='text-gray-600 text-sm'>The sacred feminine tee front view</p>
           </div>
         </div>
 
         <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-5 items-center mb-4'>
           <div className='flex-1'>
             <img src="./images/SWISH-EMBLEM-BACK-BG.png" alt="" className='w-[100%] mb-4' />
-            <p className="text-gray-300 text-sm">Swish Back</p>
+            <p className="text-gray-600 text-sm">Swish Emblem Tee</p>
           </div>
           <div className='flex-1'>
             <img src="./images/SWISH-EMBLEM-FRONT-BG.png" alt="" className='w-[100%] mb-4' />
-            <p className="text-gray-300 text-sm">Swish Front</p>
+            <p className="text-gray-600 text-sm">Swish Emblem Tee Frontview</p>
           </div>
           <div className='flex-1'>
-            <img src="./images/SSV1BLK.png" alt="" className='w-[100%] mb-4' />
-            <p className="text-gray-300 text-sm">Safespace Blk</p>
+            <img src="./images/3.png" alt="" className='w-[100%] mb-4' />
+            <p className="text-gray-600 text-sm">Safespace merch tee black</p>
+          </div>
+          <div className='flex-1'>
+            <img src="./images/4.png" alt="" className='w-[100%] mb-4' />
+            <p className="text-gray-600 text-sm">Safespace merch tee white</p>
           </div>
         </div>
       </div>
