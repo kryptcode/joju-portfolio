@@ -84,8 +84,8 @@ const Home = () => {
             <p className='text-gray-600 text-sm'>The Sacred Feminine</p>
           </div>
           <div className='flex-1'>
-            <img src="./images/SKK.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-600 text-sm'>Eccedentesiast</p>
+            <img src="./images/TIRED YUTE WHITE BG.png" alt="" className='w-[100%] mb-4' />
+            <p className='text-gray-600 text-sm'>The sacred feminine tee front view</p>
           </div>
         </div>
 
@@ -102,9 +102,10 @@ const Home = () => {
             <img src="./images/LISSOME PAPER BAGS.png" alt="" className='w-[100%] mb-4' />
             <p className='text-gray-600 text-sm'>Lissome Paper Bags</p>
           </div>
+          
           <div className='flex-1'>
-            <img src="./images/TIRED YUTE WHITE BG.png" alt="" className='w-[100%] mb-4' />
-            <p className='text-gray-600 text-sm'>The sacred feminine tee front view</p>
+            <img src="./images/SKK.png" alt="" className='w-[100%] mb-4' />
+            <p className='text-gray-600 text-sm'>Eccedentesiast</p>
           </div>
         </div>
 
