@@ -1,10 +1,11 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="">
       <Head>
-        <title>Joju</title>
+        <title>Adejoju</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -43,10 +44,14 @@ export default function Home() {
         <p className='mb-2 text-gray-400'>
           General Enquiries
         </p>
-        <a href="mailto:adet@gmail.com">taiye'semail</a>
+        <a href="mailto:adeyombotk@gmail.com">adeyombotk@gmail.com</a>
       </div>
 
-
+      <h3>
+        Work Archive 2020 - Present
+      </h3>
     </div>
   )
-};
+}
+
+export default Home
