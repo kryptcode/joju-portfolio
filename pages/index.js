@@ -9,12 +9,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h2 className='w-[90%] mx-auto py-5 text-3xl font-bold tracking-wider mb-8'>
+      {/* <h2 className='w-[90%] mx-auto py-5 text-3xl font-bold tracking-wider mb-8'>
         Joju
-      </h2>
+      </h2> */}
 
       {/* Showcase */}
-      <div className='pb-4 mb-5'>
+      <div className='py-4 mb-5'>
         <div className='flex w-[96%] space-x-4 sm:w-[90%] mx-auto'>
             <div className='flex-1 mt-8 sm:mt-24'>
             <img src="https://i.ibb.co/QJR0kp8/mCD.png" alt="" className='w-[100%]' />
@@ -76,7 +76,7 @@ const Home = () => {
           <div className='flex-1'>
             <img src="./images/final rollout.png" alt="" className='w-[100%] mb-4' />
             <p className='text-gray-600 text-sm'>
-              Twenties Merch
+            Safespace Merch Roll-out poster
             </p>
           </div>
           <div className='flex-1'>
