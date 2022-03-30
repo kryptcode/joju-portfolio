@@ -39,7 +39,7 @@ const Home = () => {
       {/* About Me */}
       <div className='w-[96%] sm:w-[90%] mx-auto mb-6 py-12'>
             <h5 className='text-black/80 text-xl font-semibold mb-3'>
-              Hello I'm
+              Hello! I'm
             </h5>
             <h1 className='text-5xl font-semibold tracking-wide mb-3'>
               Adeyombo Adekemi
