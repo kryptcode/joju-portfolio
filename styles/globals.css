@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Tilt+Prism&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    body {
+@layer base{
+    * {
         /* @apply bg-black text-white; */
+        @apply font-roboto
     }
+}
+
+.tilt-font {
+    font-family: 'Tilt Prism', sans-serif;
 }

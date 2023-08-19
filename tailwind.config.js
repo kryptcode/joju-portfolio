@@ -4,7 +4,10 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'tilt': ['Tilt Prism', 'sans-serif'],
+      'roboto': ['Roboto', 'cursive'],
+    }
   },
   plugins: [],
 }
