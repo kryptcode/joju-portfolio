@@ -1,14 +1,14 @@
 import Head from 'next/head'
-import Image from 'next/image'
+// import Image from 'next/image'
 import Hero from '../components/Hero'
-import nusacred from '../public/images/nusacredfeminine.jpg'
-import doberman1 from '../public/images/Doberman1.jpg'
-import doberman2 from '../public/images/Doberman2.jpg'
-import doberman2black from '../public/images/Dobermann2black.jpg'
-import dropposter from '../public/images/DROP POSTER FINAL.png'
-import nunicely from '../public/images/nunicely.jpg'
-import mcd from '../public/images/mCD.png'
-import transmutate from '../public/images/transmutationteemockup.jpg'
+// import nusacred from '../public/images/nusacredfeminine.jpg'
+// import doberman1 from '../public/images/Doberman1.jpg'
+// import doberman2 from '../public/images/Doberman2.jpg'
+// import doberman2black from '../public/images/Dobermann2black.jpg'
+// import dropposter from '../public/images/DROP POSTER FINAL.png'
+// import nunicely from '../public/images/nunicely.jpg'
+// import mcd from '../public/images/mCD.png'
+// import transmutate from '../public/images/transmutationteemockup.jpg'
 import { useParallax } from 'react-scroll-parallax'
 
 
@@ -66,13 +66,15 @@ const Home = () => {
 
         <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-5 items-center mb-7'>
           <div className='flex-1'>
-          <Image src={mcd} alt="" />
+          {/* <Image src={mcd} alt="" /> */}
+          <img src="./images/mCD.png" alt="" className='w-[100%] mb-4' />
           </div>
           <div className='flex-1'>
-            <Image src={nusacred} alt="" />
+            {/* <Image src={nusacred} alt="" /> */}
+          <img src="./images/nusacredfeminine.jpg" alt="" className='w-[100%] mb-4' />
           </div>
           <div className='flex-1'>
-          <Image src={doberman1} alt="" />
+          <img src="./images/Doberman1.png" alt="" className='w-[100%] mb-4' />
           </div>
           
           <div className='flex-1'>
@@ -85,13 +87,18 @@ const Home = () => {
             <img src="./images/SWISH-EMBLEM-BACK-BG.png" alt="" className='w-[100%] mb-4' />
           </div>
           <div className='flex-1'>
-          <Image src={transmutate} alt="" />
+          {/* <Image src={transmutate} alt="" /> */}
+          <img src="./images/transmutationteemockup.jpg" alt="" className='w-[100%] mb-4' />
           </div>
           <div className='flex-1'>
-          <Image src={doberman2black} alt="" />
+          {/* <Image src={doberman2black} alt="" /> */}
+          <img src="./images/Dobermann2black.jpg" alt="" className='w-[100%] mb-4' />
+
           </div>
           <div className='flex-1'>
-          <Image src={doberman2} alt="" />
+          {/* <Image src={doberman2} alt="" /> */}
+          <img src="./images/Doberman2.jpg" alt="" className='w-[100%] mb-4' />
+
           </div>
         </div>
         <div className='flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-5 items-center'>
