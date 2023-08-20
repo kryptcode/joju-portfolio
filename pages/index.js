@@ -13,9 +13,9 @@ import { useParallax } from 'react-scroll-parallax'
 
 
 const Home = () => {
-  const parallax = useParallax<HTMLDivElement>({
-    rotate: [0, 360],
-  });
+  // const parallax = useParallax<HTMLDivElement>({
+  //   rotate: [0, 360],
+  // });
   return (
     <div className="bg-black text-white relative font-roboto">
       <Head>
@@ -26,14 +26,14 @@ const Home = () => {
 
       <div className='text-xl py-3 font-medium px-1 w-[90%] mx-auto fixed h-20 z-10 '>
         <div className='border-[2.5px] border-white h-16 w-16 flex flex-col justify-center items-center '>
-          <div ref={parallax.ref}>
+          {/* <div ref={parallax.ref}> */}
             <div>
               JO
             </div>
             <div>
               JU
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
 
